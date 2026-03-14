@@ -1498,10 +1498,7 @@ const Footer = ({ lang }: { lang: LangType }) => {
         </div>
         <div className="flex flex-col md:flex-row justify-between items-center gap-6 pt-8 border-t border-white/10 text-sm text-zinc-500">
           <p>© 2026 Vodium Technologies. {loc.rights}</p>
-          <p className="flex items-center gap-1">
-            Designed with <Shield className="w-3 h-3 text-zinc-400" /> in
-            Silicon Valley
-          </p>
+          <p className="flex items-center gap-1"></p>
         </div>
       </div>
     </footer>
